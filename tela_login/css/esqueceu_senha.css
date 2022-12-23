@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulo h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px;
+}
+.user{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user input{
+    border-style: none;
+    background-color: darkgray;
+    width: 350px;
+    height: 20px;
+    border-radius: 5px;
+}
+.esqueceu button{
+    border-style: none;
+    background-color: white;
+    text-decoration: underline;
+}
+.button{
+    text-align: center;
+}
+.button .login{
+    padding: 5px;
+}
