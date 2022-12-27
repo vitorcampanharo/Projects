@@ -4,7 +4,7 @@ function enviar() {
         alert("Precisamos de um E-mail de recuperação")
     }else{
         userValue = user.value
-        alert("Pronto, enviarémos um link neste e-mail para redefinição de senha")
+        alert("Pronto, enviamos um link neste e-mail para redefinição de senha")
         window.location.replace("../html/home.html")
     }
 }
